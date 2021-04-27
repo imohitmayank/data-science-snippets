@@ -1,0 +1,6 @@
+# Add username
+git config --global user.name "FIRST_NAME LAST_NAME"
+# Add email
+git config --global user.email "MY_NAME@example.com"
+
+# mode details: https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
