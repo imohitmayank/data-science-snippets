@@ -1,4 +1,4 @@
-"""Finetuning RoBERTa hugging gace (pytorch) model.
+"""Finetuning BERT hugging gace (pytorch) model.
 
 Author: Mohit Mayank
 
@@ -19,13 +19,13 @@ import torch.optim as optim
 
 # load RoBERTa model
 from transformers import AdamW
-from transformers import RobertaTokenizer, RobertaForMaskedLM
+from transformers import BertTokenizer, BertForMaskedLM
 
 # MODEL LOAD =========
 #model_path = "../input/roberta-base" # if local copy is present
-model_path = "roberta-base" # if local copy is not present
-tokenizer = RobertaTokenizer.from_pretrained(model_path)
-model = RobertaForMaskedLM.from_pretrained(model_path)
+model_path = "bert-base-uncased" # if local copy is not present
+tokenizer = BertTokenizer.from_pretrained(model_path)
+model = BertForMaskedLM.from_pretrained(model_path)
 
 # DATA PREP 1 =========
 data = pd.read_csv("file_with_text.csv")
@@ -101,5 +101,5 @@ for epoch in range(epochs):
         loop.set_postfix(loss=loss.item())
 
 # SAVE MODEL =====================
-model.save_pretrained("roberta_finetuned_on_text/")
-tokenizer.save_pretrained("roberta_finetuned_on_text/")
+model.save_pretrained("bert_finetuned_on_text/")
+tokenizer.save_pretrained("bert_finetuned_on_text/")
