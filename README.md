@@ -7,8 +7,8 @@ List of snippets:
 	- `keras_biLSTM.py`: Keras based example for biLSTM model from data preparation to model initialzation to final training.
 	- `keras/callback.py`: different callbacks in Keras and how to use them.
 
-- **GIT** (`git/`)
-	- `git_config.txt`: Basic GIT operations to add your username and email id in git config.
+- **Machine Learning** (`machine_learning/`)
+	- `sklearn_hyperparameter_tune_svr.py`: Hyperparameter tuning for SVR regression algorithm from sklearn
 
 - **Natural Language Processing** (`natural_language_processing/`)
 	- `finetune_roberta_huggingface.py`: fine tune RoBERTa model on text.
@@ -24,4 +24,6 @@ List of snippets:
 	- `install_package.py`: how to install python packages from python code
 	- `python_packaging.sh`: script to clean, build and publish your python package.
 	- `virtual_environment.sh`: how to create and activate a virtual python environment (linux and windows)
-	
+
+- **GIT** (`git/`)
+	- `git_config.txt`: Basic GIT operations to add your username and email id in git config.
