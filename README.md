@@ -12,6 +12,7 @@ List of snippets:
 
 - **Natural Language Processing** (`natural_language_processing/`)
 	- `finetune_roberta_huggingface.py`: fine tune RoBERTa model on text.
+	- `finetune_bert_huggingface.py`: fine tune BERT model on text.
 
 - **Google colab** (`google_colab/`)
 	- `connect_to_google_drive.py`: connect to google drive using python script
