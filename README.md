@@ -1,7 +1,26 @@
-# python-snippets
+# data-science-snippets
 
-Curated list of daily use Python snippets
+Curated list of python snippets for busy and equally lazy Data Scientists :smile:  
 
 List of snippets:
-- `get_members_of_object.py`: Get list of all modules within a class. Can be used to fetch function list.
-- `git_config.txt`: Basic GIT operations to add your username and email id in git config.
+- **Deep Learning** (`deep_learning/`)
+	- `keras_biLSTM.py`: Keras based example for biLSTM model from data preparation to model initialzation to final training.
+	- `keras/callback.py`: different callbacks in Keras and how to use them.
+
+- **GIT** (`git/`)
+	- `git_config.txt`: Basic GIT operations to add your username and email id in git config.
+
+- **Natural Language Processing** (`natural_language_processing/`)
+	- `finetune_roberta_huggingface.py`: fine tune RoBERTa model on text.
+
+- **Google colab** (`google_colab/`)
+	- `connect_to_google_drive.py`: connect to google drive using python script
+	- `download_file_from_google_colab.py` : download specific fil from google colab using python script
+
+- **Python** (`python/`)
+	- `add_numpy_array_as_pandas_column.py` : transform a numpy array into pandas column
+	- `get_members_of_object.py`: Get list of all modules within a class. Can be used to fetch function list.
+	- `install_package.py`: how to install python packages from python code
+	- `python_packaging.sh`: script to clean, build and publish your python package.
+	- `virtual_environment.sh`: how to create and activate a virtual python environment (linux and windows)
+	

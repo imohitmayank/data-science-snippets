@@ -12,7 +12,7 @@ checkpoint = keras.callbacks.ModelCheckpoint("checkpoint_model_{epoch:02d}.hdf5"
 # Step 2: Assigning the callback
 #------------------------------
 # fit the model
-history = model.fit(train_data_gen, 
-#                     ....
+history = model.fit(train_data_gen, # training data generator
+#                     .... # put usual code here
                     callbacks=[checkpoint, earlystopping]
                    )

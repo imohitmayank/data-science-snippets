@@ -1,4 +1,6 @@
 """Sample code for recurrent layer based models
+
+The model code is at line 42; rest are fillers and prerequisities
 """
 
 # ---- Imports ----
