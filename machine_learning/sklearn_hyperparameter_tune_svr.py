@@ -2,6 +2,8 @@
 
 - Specify the search space i.e. the list of algorithm parameters to try
 - for each parameter combination perform a 5 fold CV test
+
+Algorithm page: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
 """
 
 # import =======
