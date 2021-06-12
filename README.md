@@ -5,7 +5,7 @@ Curated list of python snippets for busy and equally lazy Data Scientists :smile
 List of snippets:
 - **Deep Learning** (`deep_learning/`)
 	- `keras_biLSTM.py`: Keras based example for biLSTM model from data preparation to model initialzation to final training.
-	- `keras/callback.py`: different callbacks in Keras and how to use them.
+	- `keras_callback.py`: different callbacks in Keras and how to use them.
 
 - **Machine Learning** (`machine_learning/`)
 	- `sklearn_hyperparameter_tune_svr.py`: Hyperparameter tuning for SVR regression algorithm from sklearn
