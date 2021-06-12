@@ -8,6 +8,7 @@ List of snippets:
 	- `keras_callback.py`: different callbacks in Keras and how to use them.
 	- `keras_mean_pooling.py`: example on how to do mean pooling in Keras.
 	- `pytorchl_freezeLayers.py`: example code to freeze layers using pytorch lightning.
+	- `pytorch_dataset_dataloader.py`: example of how to load and prepare dataset using dataloaders in pytorch.
 
 - **Machine Learning** (`machine_learning/`)
 	- `sklearn_hyperparameter_tune_svr.py`: Hyperparameter tuning for SVR regression algorithm from sklearn
