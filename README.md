@@ -7,6 +7,7 @@ List of snippets:
 	- `keras_biLSTM.py`: Keras based example for biLSTM model from data preparation to model initialzation to final training.
 	- `keras_callback.py`: different callbacks in Keras and how to use them.
 	- `keras_mean_pooling.py`: example on how to do mean pooling in Keras.
+	- `pytorchl_freezeLayers.py`: example code to freeze layers using pytorch lightning.
 
 - **Machine Learning** (`machine_learning/`)
 	- `sklearn_hyperparameter_tune_svr.py`: Hyperparameter tuning for SVR regression algorithm from sklearn
@@ -14,6 +15,7 @@ List of snippets:
 - **Natural Language Processing** (`natural_language_processing/`)
 	- `finetune_roberta_huggingface.py`: fine tune RoBERTa model on text.
 	- `finetune_bert_huggingface.py`: fine tune BERT model on text.
+	- `pytorchl_BERT_classification.py`: perform text classification using BERT model.
 
 - **Google colab** (`google_colab/`)
 	- `connect_to_google_drive.py`: connect to google drive using python script
