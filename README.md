@@ -12,6 +12,7 @@ List of snippets:
 
 - **Machine Learning** (`machine_learning/`)
 	- `sklearn_hyperparameter_tune_svr.py`: Hyperparameter tuning for SVR regression algorithm from sklearn
+	- `sklearn_cross_validation.py`: cross validation example on pandas dataframe using sklearn function
 
 - **Natural Language Processing** (`natural_language_processing/`)
 	- `finetune_roberta_huggingface.py`: fine tune RoBERTa model on text.
