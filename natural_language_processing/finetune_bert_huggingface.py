@@ -17,7 +17,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# load RoBERTa model
+# load BERT model
 from transformers import AdamW
 from transformers import BertTokenizer, BertForMaskedLM
 
